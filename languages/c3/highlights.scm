@@ -379,11 +379,11 @@
 [
   (line_comment)
   (block_comment)
-] @comment @spell
+] @spell @comment
 
 (doc_comment) @comment.documentation
 
-(doc_comment_text) @spell
+(doc_comment_text) @spell @comment.documentation
 
 (doc_comment_contract
   name: (_) @attribute)

@@ -1,6 +1,14 @@
 module main;
 import std::io;
 
+// Testing line comments
+
+/* Testing block comments
+   over multiple lines
+*/
+
+<*Documentation comment*>
+
 interface Object
 {
     fn String as_str();
