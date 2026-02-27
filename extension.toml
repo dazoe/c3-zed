@@ -11,7 +11,7 @@ name = "c3"
 language = "C3"
 
 [grammars.c3]
-repository = "https://github.com/fernandolguevara/tree-sitter-c3"
+repository = "https://github.com/dazoe/tree-sitter-c3"
 rev = "next"
 
 # for test

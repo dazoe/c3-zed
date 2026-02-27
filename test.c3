@@ -51,7 +51,7 @@ const enum State : int {
     DONE = 2,
 }
 
-cenum OpCode {
+constdef OpCode {
     ADD,
     SUB,
 }
