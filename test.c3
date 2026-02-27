@@ -28,6 +28,11 @@ fn String Person.as_str(Person* self) @dynamic
     return str.copy_str();
 }
 
+faultdef FAULT;
+fn void? doesfault() {
+	return FAULT~;
+}
+
 <*
 Factorial.
 @pure

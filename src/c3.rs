@@ -18,6 +18,7 @@ impl zed::Extension for C3Extension {
         Ok(zed::Command {
             command: path,
             args: vec![],
+            // args: vec!["-log-path".to_string(), "c3lsp.log".to_string()],
             env: Default::default(),
         })
     }

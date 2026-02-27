@@ -285,7 +285,7 @@
   (path_ident
     (ident) @module))
 
-(import_declaration
+(import_path
   (path_ident
     (ident) @module))
 
